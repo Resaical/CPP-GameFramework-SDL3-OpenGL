@@ -1,0 +1,7 @@
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CppGameFramework.dir
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/glad.dir
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/ALL_BUILD.dir
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/ZERO_CHECK.dir
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/externals/SDL/CMakeFiles/SDL3-static.dir
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/externals/SDL/CMakeFiles/SDL3_test.dir
+C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/externals/SDL/CMakeFiles/ALL_BUILD.dir
