@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/cmake_install.cmake",
-		"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/externals/SDL/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
