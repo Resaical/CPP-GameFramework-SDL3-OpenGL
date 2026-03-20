@@ -90,7 +90,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.19+164abd434 for .NET Framework
-      Build started 3/20/2026 12:39:39 PM.
+      Build started 3/20/2026 3:34:05 PM.
       
       Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -119,7 +119,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.54
+      Time Elapsed 00:00:00.52
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -825,7 +825,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.19+164abd434 for .NET Framework
-      Build started 3/20/2026 12:39:39 PM.
+      Build started 3/20/2026 3:34:06 PM.
       
       Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -854,7 +854,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.53
+      Time Elapsed 00:00:00.54
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1109,8 +1109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-s8esy0"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-s8esy0"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-0m5vw4"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-0m5vw4"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -1119,33 +1119,33 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-s8esy0'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-0m5vw4'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b6edc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89301.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:40 PM.
+        Build started 3/20/2026 3:34:07 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s8esy0\\cmTC_b6edc.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0m5vw4\\cmTC_89301.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s8esy0\\Debug\\".
-          Creating directory "cmTC_b6edc.dir\\Debug\\cmTC_b6edc.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0m5vw4\\Debug\\".
+          Creating directory "cmTC_89301.dir\\Debug\\cmTC_89301.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b6edc.dir\\Debug\\cmTC_b6edc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b6edc.dir\\Debug\\cmTC_b6edc.tlog\\unsuccessfulbuild".
+          Creating "cmTC_89301.dir\\Debug\\cmTC_89301.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_89301.dir\\Debug\\cmTC_89301.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b6edc.dir\\Debug\\\\" /Fd"cmTC_b6edc.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_89301.dir\\Debug\\\\" /Fd"cmTC_89301.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b6edc.dir\\Debug\\\\" /Fd"cmTC_b6edc.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_89301.dir\\Debug\\\\" /Fd"cmTC_89301.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s8esy0\\Debug\\cmTC_b6edc.exe" /INCREMENTAL /ILK:"cmTC_b6edc.dir\\Debug\\cmTC_b6edc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-s8esy0/Debug/cmTC_b6edc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-s8esy0/Debug/cmTC_b6edc.lib" /MACHINE:X64 cmTC_b6edc.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b6edc.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s8esy0\\Debug\\cmTC_b6edc.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0m5vw4\\Debug\\cmTC_89301.exe" /INCREMENTAL /ILK:"cmTC_89301.dir\\Debug\\cmTC_89301.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-0m5vw4/Debug/cmTC_89301.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-0m5vw4/Debug/cmTC_89301.lib" /MACHINE:X64 cmTC_89301.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_89301.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0m5vw4\\Debug\\cmTC_89301.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b6edc.dir\\Debug\\cmTC_b6edc.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b6edc.dir\\Debug\\cmTC_b6edc.tlog\\cmTC_b6edc.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s8esy0\\cmTC_b6edc.vcxproj" (default targets).
+          Deleting file "cmTC_89301.dir\\Debug\\cmTC_89301.tlog\\unsuccessfulbuild".
+          Touching "cmTC_89301.dir\\Debug\\cmTC_89301.tlog\\cmTC_89301.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0m5vw4\\cmTC_89301.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -1191,8 +1191,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-wxvyi0"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-wxvyi0"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-l92rnk"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-l92rnk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
@@ -1202,39 +1202,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-wxvyi0'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-l92rnk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a07fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f02d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:41 PM.
+        Build started 3/20/2026 3:34:07 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wxvyi0\\cmTC_a07fe.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l92rnk\\cmTC_f02d8.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wxvyi0\\Debug\\".
-          Creating directory "cmTC_a07fe.dir\\Debug\\cmTC_a07fe.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l92rnk\\Debug\\".
+          Creating directory "cmTC_f02d8.dir\\Debug\\cmTC_f02d8.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a07fe.dir\\Debug\\cmTC_a07fe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a07fe.dir\\Debug\\cmTC_a07fe.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f02d8.dir\\Debug\\cmTC_f02d8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f02d8.dir\\Debug\\cmTC_f02d8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a07fe.dir\\Debug\\\\" /Fd"cmTC_a07fe.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f02d8.dir\\Debug\\\\" /Fd"cmTC_f02d8.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a07fe.dir\\Debug\\\\" /Fd"cmTC_a07fe.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f02d8.dir\\Debug\\\\" /Fd"cmTC_f02d8.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wxvyi0\\Debug\\cmTC_a07fe.exe" /INCREMENTAL /ILK:"cmTC_a07fe.dir\\Debug\\cmTC_a07fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-wxvyi0/Debug/cmTC_a07fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-wxvyi0/Debug/cmTC_a07fe.lib" /MACHINE:X64 cmTC_a07fe.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_a07fe.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wxvyi0\\Debug\\cmTC_a07fe.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l92rnk\\Debug\\cmTC_f02d8.exe" /INCREMENTAL /ILK:"cmTC_f02d8.dir\\Debug\\cmTC_f02d8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-l92rnk/Debug/cmTC_f02d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-l92rnk/Debug/cmTC_f02d8.lib" /MACHINE:X64 cmTC_f02d8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f02d8.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l92rnk\\Debug\\cmTC_f02d8.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_a07fe.dir\\Debug\\cmTC_a07fe.tlog\\unsuccessfulbuild".
-          Touching "cmTC_a07fe.dir\\Debug\\cmTC_a07fe.tlog\\cmTC_a07fe.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wxvyi0\\cmTC_a07fe.vcxproj" (default targets).
+          Deleting file "cmTC_f02d8.dir\\Debug\\cmTC_f02d8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f02d8.dir\\Debug\\cmTC_f02d8.tlog\\cmTC_f02d8.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l92rnk\\cmTC_f02d8.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.51
+        Time Elapsed 00:00:00.49
         
       exitCode: 0
   -
@@ -1764,37 +1764,37 @@ events:
       stdout: |
         Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/externals/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_db2a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb0c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:42 PM.
+        Build started 3/20/2026 3:34:08 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_db2a6.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_cb0c2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_db2a6.dir\\Debug\\cmTC_db2a6.tlog\\".
+          Creating directory "cmTC_cb0c2.dir\\Debug\\cmTC_cb0c2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_db2a6.dir\\Debug\\cmTC_db2a6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_db2a6.dir\\Debug\\cmTC_db2a6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_cb0c2.dir\\Debug\\cmTC_cb0c2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cb0c2.dir\\Debug\\cmTC_cb0c2.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_db2a6.dir\\Debug\\\\" /Fd"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_db2a6.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cb0c2.dir\\Debug\\\\" /Fd"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_cb0c2.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_db2a6.dir\\Debug\\\\" /Fd"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_db2a6.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cb0c2.dir\\Debug\\\\" /Fd"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_cb0c2.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           SDL_detect_arch.c
         Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_db2a6.lib" /NOLOGO /MACHINE:X64 cmTC_db2a6.dir\\Debug\\SDL_detect_arch.obj
-          cmTC_db2a6.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_db2a6.lib
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_cb0c2.lib" /NOLOGO /MACHINE:X64 cmTC_cb0c2.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_cb0c2.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_cb0c2.lib
         FinalizeBuildStatus:
-          Deleting file "cmTC_db2a6.dir\\Debug\\cmTC_db2a6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_db2a6.dir\\Debug\\cmTC_db2a6.tlog\\cmTC_db2a6.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_db2a6.vcxproj" (default targets).
+          Deleting file "cmTC_cb0c2.dir\\Debug\\cmTC_cb0c2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cb0c2.dir\\Debug\\cmTC_cb0c2.tlog\\cmTC_cb0c2.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\externals\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_cb0c2.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.44
         
       exitCode: 0
   -
@@ -1807,8 +1807,8 @@ events:
     checks:
       - "Performing Test CAN_PRESEED"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jlyy4p"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jlyy4p"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-qcyv4i"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-qcyv4i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -1818,39 +1818,39 @@ events:
       variable: "CAN_PRESEED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jlyy4p'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-qcyv4i'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2dcb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6dde6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:43 PM.
+        Build started 3/20/2026 3:34:09 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\cmTC_2dcb2.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\cmTC_6dde6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\Debug\\".
-          Creating directory "cmTC_2dcb2.dir\\Debug\\cmTC_2dcb2.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\Debug\\".
+          Creating directory "cmTC_6dde6.dir\\Debug\\cmTC_6dde6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2dcb2.dir\\Debug\\cmTC_2dcb2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2dcb2.dir\\Debug\\cmTC_2dcb2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6dde6.dir\\Debug\\cmTC_6dde6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6dde6.dir\\Debug\\cmTC_6dde6.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2dcb2.dir\\Debug\\\\" /Fd"cmTC_2dcb2.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6dde6.dir\\Debug\\\\" /Fd"cmTC_6dde6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2dcb2.dir\\Debug\\\\" /Fd"cmTC_2dcb2.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6dde6.dir\\Debug\\\\" /Fd"cmTC_6dde6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\Debug\\cmTC_2dcb2.exe" /INCREMENTAL /ILK:"cmTC_2dcb2.dir\\Debug\\cmTC_2dcb2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jlyy4p/Debug/cmTC_2dcb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jlyy4p/Debug/cmTC_2dcb2.lib" /MACHINE:X64 cmTC_2dcb2.dir\\Debug\\src.obj
-          cmTC_2dcb2.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\Debug\\cmTC_2dcb2.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\Debug\\cmTC_6dde6.exe" /INCREMENTAL /ILK:"cmTC_6dde6.dir\\Debug\\cmTC_6dde6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-qcyv4i/Debug/cmTC_6dde6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-qcyv4i/Debug/cmTC_6dde6.lib" /MACHINE:X64 cmTC_6dde6.dir\\Debug\\src.obj
+          cmTC_6dde6.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\Debug\\cmTC_6dde6.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2dcb2.dir\\Debug\\cmTC_2dcb2.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2dcb2.dir\\Debug\\cmTC_2dcb2.tlog\\cmTC_2dcb2.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlyy4p\\cmTC_2dcb2.vcxproj" (default targets).
+          Deleting file "cmTC_6dde6.dir\\Debug\\cmTC_6dde6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6dde6.dir\\Debug\\cmTC_6dde6.tlog\\cmTC_6dde6.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qcyv4i\\cmTC_6dde6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.51
         
       exitCode: 0
   -
@@ -1863,8 +1863,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_MMX"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-v7r40r"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-v7r40r"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-9g0mm0"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-9g0mm0"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -1874,34 +1874,34 @@ events:
       variable: "COMPILER_SUPPORTS_MMX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-v7r40r'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-9g0mm0'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ed9a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b8e0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:44 PM.
+        Build started 3/20/2026 3:34:10 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\cmTC_ed9a5.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\cmTC_b8e0a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\Debug\\".
-          Creating directory "cmTC_ed9a5.dir\\Debug\\cmTC_ed9a5.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\Debug\\".
+          Creating directory "cmTC_b8e0a.dir\\Debug\\cmTC_b8e0a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ed9a5.dir\\Debug\\cmTC_ed9a5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ed9a5.dir\\Debug\\cmTC_ed9a5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b8e0a.dir\\Debug\\cmTC_b8e0a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b8e0a.dir\\Debug\\cmTC_b8e0a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ed9a5.dir\\Debug\\\\" /Fd"cmTC_ed9a5.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b8e0a.dir\\Debug\\\\" /Fd"cmTC_b8e0a.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ed9a5.dir\\Debug\\\\" /Fd"cmTC_ed9a5.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b8e0a.dir\\Debug\\\\" /Fd"cmTC_b8e0a.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\src.c"
           src.c
-        C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\cmTC_ed9a5.vcxproj]
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\cmTC_ed9a5.vcxproj" (default targets) -- FAILED.
+        C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\cmTC_b8e0a.vcxproj]
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\cmTC_b8e0a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\cmTC_ed9a5.vcxproj" (default target) (1) ->
+        "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\cmTC_b8e0a.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7r40r\\cmTC_ed9a5.vcxproj]
+          C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9g0mm0\\cmTC_b8e0a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -1919,8 +1919,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-u6tuc7"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-u6tuc7"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-4bz69l"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-4bz69l"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -1930,39 +1930,39 @@ events:
       variable: "COMPILER_SUPPORTS_SSE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-u6tuc7'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-4bz69l'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2aa32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_38629.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:44 PM.
+        Build started 3/20/2026 3:34:11 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\cmTC_2aa32.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\cmTC_38629.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\Debug\\".
-          Creating directory "cmTC_2aa32.dir\\Debug\\cmTC_2aa32.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\Debug\\".
+          Creating directory "cmTC_38629.dir\\Debug\\cmTC_38629.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2aa32.dir\\Debug\\cmTC_2aa32.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2aa32.dir\\Debug\\cmTC_2aa32.tlog\\unsuccessfulbuild".
+          Creating "cmTC_38629.dir\\Debug\\cmTC_38629.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_38629.dir\\Debug\\cmTC_38629.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2aa32.dir\\Debug\\\\" /Fd"cmTC_2aa32.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_38629.dir\\Debug\\\\" /Fd"cmTC_38629.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2aa32.dir\\Debug\\\\" /Fd"cmTC_2aa32.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_38629.dir\\Debug\\\\" /Fd"cmTC_38629.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\Debug\\cmTC_2aa32.exe" /INCREMENTAL /ILK:"cmTC_2aa32.dir\\Debug\\cmTC_2aa32.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-u6tuc7/Debug/cmTC_2aa32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-u6tuc7/Debug/cmTC_2aa32.lib" /MACHINE:X64 cmTC_2aa32.dir\\Debug\\src.obj
-          cmTC_2aa32.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\Debug\\cmTC_2aa32.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\Debug\\cmTC_38629.exe" /INCREMENTAL /ILK:"cmTC_38629.dir\\Debug\\cmTC_38629.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-4bz69l/Debug/cmTC_38629.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-4bz69l/Debug/cmTC_38629.lib" /MACHINE:X64 cmTC_38629.dir\\Debug\\src.obj
+          cmTC_38629.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\Debug\\cmTC_38629.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2aa32.dir\\Debug\\cmTC_2aa32.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2aa32.dir\\Debug\\cmTC_2aa32.tlog\\cmTC_2aa32.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6tuc7\\cmTC_2aa32.vcxproj" (default targets).
+          Deleting file "cmTC_38629.dir\\Debug\\cmTC_38629.tlog\\unsuccessfulbuild".
+          Touching "cmTC_38629.dir\\Debug\\cmTC_38629.tlog\\cmTC_38629.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bz69l\\cmTC_38629.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.48
         
       exitCode: 0
   -
@@ -1975,8 +1975,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE2"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-1zsmr1"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-1zsmr1"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-7k3lez"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-7k3lez"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -1986,39 +1986,39 @@ events:
       variable: "COMPILER_SUPPORTS_SSE2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-1zsmr1'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-7k3lez'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eba92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c617.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:45 PM.
+        Build started 3/20/2026 3:34:11 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\cmTC_eba92.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\cmTC_0c617.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\Debug\\".
-          Creating directory "cmTC_eba92.dir\\Debug\\cmTC_eba92.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\Debug\\".
+          Creating directory "cmTC_0c617.dir\\Debug\\cmTC_0c617.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_eba92.dir\\Debug\\cmTC_eba92.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_eba92.dir\\Debug\\cmTC_eba92.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0c617.dir\\Debug\\cmTC_0c617.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0c617.dir\\Debug\\cmTC_0c617.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_eba92.dir\\Debug\\\\" /Fd"cmTC_eba92.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0c617.dir\\Debug\\\\" /Fd"cmTC_0c617.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_eba92.dir\\Debug\\\\" /Fd"cmTC_eba92.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0c617.dir\\Debug\\\\" /Fd"cmTC_0c617.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\Debug\\cmTC_eba92.exe" /INCREMENTAL /ILK:"cmTC_eba92.dir\\Debug\\cmTC_eba92.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-1zsmr1/Debug/cmTC_eba92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-1zsmr1/Debug/cmTC_eba92.lib" /MACHINE:X64 cmTC_eba92.dir\\Debug\\src.obj
-          cmTC_eba92.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\Debug\\cmTC_eba92.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\Debug\\cmTC_0c617.exe" /INCREMENTAL /ILK:"cmTC_0c617.dir\\Debug\\cmTC_0c617.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-7k3lez/Debug/cmTC_0c617.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-7k3lez/Debug/cmTC_0c617.lib" /MACHINE:X64 cmTC_0c617.dir\\Debug\\src.obj
+          cmTC_0c617.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\Debug\\cmTC_0c617.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_eba92.dir\\Debug\\cmTC_eba92.tlog\\unsuccessfulbuild".
-          Touching "cmTC_eba92.dir\\Debug\\cmTC_eba92.tlog\\cmTC_eba92.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1zsmr1\\cmTC_eba92.vcxproj" (default targets).
+          Deleting file "cmTC_0c617.dir\\Debug\\cmTC_0c617.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0c617.dir\\Debug\\cmTC_0c617.tlog\\cmTC_0c617.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7k3lez\\cmTC_0c617.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.51
         
       exitCode: 0
   -
@@ -2031,8 +2031,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE3"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c60lbd"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c60lbd"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-mzzrnv"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-mzzrnv"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2042,39 +2042,39 @@ events:
       variable: "COMPILER_SUPPORTS_SSE3"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c60lbd'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-mzzrnv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7a5ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_78739.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:46 PM.
+        Build started 3/20/2026 3:34:12 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\cmTC_7a5ce.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\cmTC_78739.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\Debug\\".
-          Creating directory "cmTC_7a5ce.dir\\Debug\\cmTC_7a5ce.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\Debug\\".
+          Creating directory "cmTC_78739.dir\\Debug\\cmTC_78739.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7a5ce.dir\\Debug\\cmTC_7a5ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_7a5ce.dir\\Debug\\cmTC_7a5ce.tlog\\unsuccessfulbuild".
+          Creating "cmTC_78739.dir\\Debug\\cmTC_78739.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_78739.dir\\Debug\\cmTC_78739.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7a5ce.dir\\Debug\\\\" /Fd"cmTC_7a5ce.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_78739.dir\\Debug\\\\" /Fd"cmTC_78739.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7a5ce.dir\\Debug\\\\" /Fd"cmTC_7a5ce.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_78739.dir\\Debug\\\\" /Fd"cmTC_78739.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\Debug\\cmTC_7a5ce.exe" /INCREMENTAL /ILK:"cmTC_7a5ce.dir\\Debug\\cmTC_7a5ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c60lbd/Debug/cmTC_7a5ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c60lbd/Debug/cmTC_7a5ce.lib" /MACHINE:X64 cmTC_7a5ce.dir\\Debug\\src.obj
-          cmTC_7a5ce.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\Debug\\cmTC_7a5ce.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\Debug\\cmTC_78739.exe" /INCREMENTAL /ILK:"cmTC_78739.dir\\Debug\\cmTC_78739.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-mzzrnv/Debug/cmTC_78739.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-mzzrnv/Debug/cmTC_78739.lib" /MACHINE:X64 cmTC_78739.dir\\Debug\\src.obj
+          cmTC_78739.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\Debug\\cmTC_78739.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_7a5ce.dir\\Debug\\cmTC_7a5ce.tlog\\unsuccessfulbuild".
-          Touching "cmTC_7a5ce.dir\\Debug\\cmTC_7a5ce.tlog\\cmTC_7a5ce.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c60lbd\\cmTC_7a5ce.vcxproj" (default targets).
+          Deleting file "cmTC_78739.dir\\Debug\\cmTC_78739.tlog\\unsuccessfulbuild".
+          Touching "cmTC_78739.dir\\Debug\\cmTC_78739.tlog\\cmTC_78739.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mzzrnv\\cmTC_78739.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.48
         
       exitCode: 0
   -
@@ -2087,8 +2087,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_1"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-dtb89c"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-dtb89c"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jtc7hz"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jtc7hz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2098,145 +2098,33 @@ events:
       variable: "COMPILER_SUPPORTS_SSE4_1"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-dtb89c'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jtc7hz'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a810f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9eb6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:47 PM.
+        Build started 3/20/2026 3:34:13 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\cmTC_a810f.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\cmTC_9eb6c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\Debug\\".
-          Creating directory "cmTC_a810f.dir\\Debug\\cmTC_a810f.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\Debug\\".
+          Creating directory "cmTC_9eb6c.dir\\Debug\\cmTC_9eb6c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a810f.dir\\Debug\\cmTC_a810f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a810f.dir\\Debug\\cmTC_a810f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9eb6c.dir\\Debug\\cmTC_9eb6c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9eb6c.dir\\Debug\\cmTC_9eb6c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a810f.dir\\Debug\\\\" /Fd"cmTC_a810f.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9eb6c.dir\\Debug\\\\" /Fd"cmTC_9eb6c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a810f.dir\\Debug\\\\" /Fd"cmTC_a810f.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9eb6c.dir\\Debug\\\\" /Fd"cmTC_9eb6c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\Debug\\cmTC_a810f.exe" /INCREMENTAL /ILK:"cmTC_a810f.dir\\Debug\\cmTC_a810f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-dtb89c/Debug/cmTC_a810f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-dtb89c/Debug/cmTC_a810f.lib" /MACHINE:X64 cmTC_a810f.dir\\Debug\\src.obj
-          cmTC_a810f.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\Debug\\cmTC_a810f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\Debug\\cmTC_9eb6c.exe" /INCREMENTAL /ILK:"cmTC_9eb6c.dir\\Debug\\cmTC_9eb6c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jtc7hz/Debug/cmTC_9eb6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-jtc7hz/Debug/cmTC_9eb6c.lib" /MACHINE:X64 cmTC_9eb6c.dir\\Debug\\src.obj
+          cmTC_9eb6c.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\Debug\\cmTC_9eb6c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_a810f.dir\\Debug\\cmTC_a810f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_a810f.dir\\Debug\\cmTC_a810f.tlog\\cmTC_a810f.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtb89c\\cmTC_a810f.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.51
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "externals/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
-      - "externals/SDL/CMakeLists.txt:825 (check_x86_source_compiles)"
-    checks:
-      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
-    directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-balert"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-balert"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/externals/SDL/cmake"
-    buildResult:
-      variable: "COMPILER_SUPPORTS_SSE4_2"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-balert'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_942bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:48 PM.
-        
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\cmTC_942bf.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\Debug\\".
-          Creating directory "cmTC_942bf.dir\\Debug\\cmTC_942bf.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_942bf.dir\\Debug\\cmTC_942bf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_942bf.dir\\Debug\\cmTC_942bf.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_942bf.dir\\Debug\\\\" /Fd"cmTC_942bf.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_942bf.dir\\Debug\\\\" /Fd"cmTC_942bf.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\src.c"
-          src.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\Debug\\cmTC_942bf.exe" /INCREMENTAL /ILK:"cmTC_942bf.dir\\Debug\\cmTC_942bf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-balert/Debug/cmTC_942bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-balert/Debug/cmTC_942bf.lib" /MACHINE:X64 cmTC_942bf.dir\\Debug\\src.obj
-          cmTC_942bf.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\Debug\\cmTC_942bf.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_942bf.dir\\Debug\\cmTC_942bf.tlog\\unsuccessfulbuild".
-          Touching "cmTC_942bf.dir\\Debug\\cmTC_942bf.tlog\\cmTC_942bf.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-balert\\cmTC_942bf.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.51
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "externals/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
-      - "externals/SDL/CMakeLists.txt:843 (check_x86_source_compiles)"
-    checks:
-      - "Performing Test COMPILER_SUPPORTS_AVX"
-    directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a3czfy"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a3czfy"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/externals/SDL/cmake"
-    buildResult:
-      variable: "COMPILER_SUPPORTS_AVX"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a3czfy'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64fd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:49 PM.
-        
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\cmTC_64fd7.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\Debug\\".
-          Creating directory "cmTC_64fd7.dir\\Debug\\cmTC_64fd7.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_64fd7.dir\\Debug\\cmTC_64fd7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_64fd7.dir\\Debug\\cmTC_64fd7.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_64fd7.dir\\Debug\\\\" /Fd"cmTC_64fd7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_64fd7.dir\\Debug\\\\" /Fd"cmTC_64fd7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\src.c"
-          src.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\Debug\\cmTC_64fd7.exe" /INCREMENTAL /ILK:"cmTC_64fd7.dir\\Debug\\cmTC_64fd7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a3czfy/Debug/cmTC_64fd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a3czfy/Debug/cmTC_64fd7.lib" /MACHINE:X64 cmTC_64fd7.dir\\Debug\\src.obj
-          cmTC_64fd7.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\Debug\\cmTC_64fd7.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_64fd7.dir\\Debug\\cmTC_64fd7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_64fd7.dir\\Debug\\cmTC_64fd7.tlog\\cmTC_64fd7.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3czfy\\cmTC_64fd7.vcxproj" (default targets).
+          Deleting file "cmTC_9eb6c.dir\\Debug\\cmTC_9eb6c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9eb6c.dir\\Debug\\cmTC_9eb6c.tlog\\cmTC_9eb6c.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtc7hz\\cmTC_9eb6c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -2251,12 +2139,124 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
       - "externals/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
+      - "externals/SDL/CMakeLists.txt:825 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-80ek3r"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-80ek3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/externals/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-80ek3r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_49abd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 3/20/2026 3:34:14 PM.
+        
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\cmTC_49abd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\Debug\\".
+          Creating directory "cmTC_49abd.dir\\Debug\\cmTC_49abd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_49abd.dir\\Debug\\cmTC_49abd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_49abd.dir\\Debug\\cmTC_49abd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_49abd.dir\\Debug\\\\" /Fd"cmTC_49abd.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_49abd.dir\\Debug\\\\" /Fd"cmTC_49abd.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\Debug\\cmTC_49abd.exe" /INCREMENTAL /ILK:"cmTC_49abd.dir\\Debug\\cmTC_49abd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-80ek3r/Debug/cmTC_49abd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-80ek3r/Debug/cmTC_49abd.lib" /MACHINE:X64 cmTC_49abd.dir\\Debug\\src.obj
+          cmTC_49abd.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\Debug\\cmTC_49abd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_49abd.dir\\Debug\\cmTC_49abd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_49abd.dir\\Debug\\cmTC_49abd.tlog\\cmTC_49abd.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-80ek3r\\cmTC_49abd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "externals/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
+      - "externals/SDL/CMakeLists.txt:843 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6dizwv"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6dizwv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/externals/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6dizwv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6023f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 3/20/2026 3:34:14 PM.
+        
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\cmTC_6023f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\Debug\\".
+          Creating directory "cmTC_6023f.dir\\Debug\\cmTC_6023f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6023f.dir\\Debug\\cmTC_6023f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6023f.dir\\Debug\\cmTC_6023f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6023f.dir\\Debug\\\\" /Fd"cmTC_6023f.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6023f.dir\\Debug\\\\" /Fd"cmTC_6023f.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\Debug\\cmTC_6023f.exe" /INCREMENTAL /ILK:"cmTC_6023f.dir\\Debug\\cmTC_6023f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6dizwv/Debug/cmTC_6023f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-6dizwv/Debug/cmTC_6023f.lib" /MACHINE:X64 cmTC_6023f.dir\\Debug\\src.obj
+          cmTC_6023f.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\Debug\\cmTC_6023f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6023f.dir\\Debug\\cmTC_6023f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6023f.dir\\Debug\\cmTC_6023f.tlog\\cmTC_6023f.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dizwv\\cmTC_6023f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "externals/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
       - "externals/SDL/CMakeLists.txt:864 (check_x86_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX2"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gy8yqr"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gy8yqr"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-ysp3xw"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-ysp3xw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2266,39 +2266,39 @@ events:
       variable: "COMPILER_SUPPORTS_AVX2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gy8yqr'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-ysp3xw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4e413.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36ad0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:49 PM.
+        Build started 3/20/2026 3:34:15 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\cmTC_4e413.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\cmTC_36ad0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\Debug\\".
-          Creating directory "cmTC_4e413.dir\\Debug\\cmTC_4e413.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\Debug\\".
+          Creating directory "cmTC_36ad0.dir\\Debug\\cmTC_36ad0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4e413.dir\\Debug\\cmTC_4e413.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4e413.dir\\Debug\\cmTC_4e413.tlog\\unsuccessfulbuild".
+          Creating "cmTC_36ad0.dir\\Debug\\cmTC_36ad0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_36ad0.dir\\Debug\\cmTC_36ad0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4e413.dir\\Debug\\\\" /Fd"cmTC_4e413.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_36ad0.dir\\Debug\\\\" /Fd"cmTC_36ad0.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4e413.dir\\Debug\\\\" /Fd"cmTC_4e413.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_36ad0.dir\\Debug\\\\" /Fd"cmTC_36ad0.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\Debug\\cmTC_4e413.exe" /INCREMENTAL /ILK:"cmTC_4e413.dir\\Debug\\cmTC_4e413.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gy8yqr/Debug/cmTC_4e413.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-gy8yqr/Debug/cmTC_4e413.lib" /MACHINE:X64 cmTC_4e413.dir\\Debug\\src.obj
-          cmTC_4e413.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\Debug\\cmTC_4e413.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\Debug\\cmTC_36ad0.exe" /INCREMENTAL /ILK:"cmTC_36ad0.dir\\Debug\\cmTC_36ad0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-ysp3xw/Debug/cmTC_36ad0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-ysp3xw/Debug/cmTC_36ad0.lib" /MACHINE:X64 cmTC_36ad0.dir\\Debug\\src.obj
+          cmTC_36ad0.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\Debug\\cmTC_36ad0.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4e413.dir\\Debug\\cmTC_4e413.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4e413.dir\\Debug\\cmTC_4e413.tlog\\cmTC_4e413.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gy8yqr\\cmTC_4e413.vcxproj" (default targets).
+          Deleting file "cmTC_36ad0.dir\\Debug\\cmTC_36ad0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_36ad0.dir\\Debug\\cmTC_36ad0.tlog\\cmTC_36ad0.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ysp3xw\\cmTC_36ad0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
   -
@@ -2311,8 +2311,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX512F"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-pn7pd9"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-pn7pd9"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-exv8dp"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-exv8dp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2322,39 +2322,39 @@ events:
       variable: "COMPILER_SUPPORTS_AVX512F"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-pn7pd9'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-exv8dp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c938.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c9e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:50 PM.
+        Build started 3/20/2026 3:34:16 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\cmTC_5c938.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\cmTC_5c9e3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\Debug\\".
-          Creating directory "cmTC_5c938.dir\\Debug\\cmTC_5c938.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\Debug\\".
+          Creating directory "cmTC_5c9e3.dir\\Debug\\cmTC_5c9e3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5c938.dir\\Debug\\cmTC_5c938.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5c938.dir\\Debug\\cmTC_5c938.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5c9e3.dir\\Debug\\cmTC_5c9e3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5c9e3.dir\\Debug\\cmTC_5c9e3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5c938.dir\\Debug\\\\" /Fd"cmTC_5c938.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5c9e3.dir\\Debug\\\\" /Fd"cmTC_5c9e3.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5c938.dir\\Debug\\\\" /Fd"cmTC_5c938.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5c9e3.dir\\Debug\\\\" /Fd"cmTC_5c9e3.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\Debug\\cmTC_5c938.exe" /INCREMENTAL /ILK:"cmTC_5c938.dir\\Debug\\cmTC_5c938.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-pn7pd9/Debug/cmTC_5c938.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-pn7pd9/Debug/cmTC_5c938.lib" /MACHINE:X64 cmTC_5c938.dir\\Debug\\src.obj
-          cmTC_5c938.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\Debug\\cmTC_5c938.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\Debug\\cmTC_5c9e3.exe" /INCREMENTAL /ILK:"cmTC_5c9e3.dir\\Debug\\cmTC_5c9e3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-exv8dp/Debug/cmTC_5c9e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-exv8dp/Debug/cmTC_5c9e3.lib" /MACHINE:X64 cmTC_5c9e3.dir\\Debug\\src.obj
+          cmTC_5c9e3.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\Debug\\cmTC_5c9e3.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_5c938.dir\\Debug\\cmTC_5c938.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5c938.dir\\Debug\\cmTC_5c938.tlog\\cmTC_5c938.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pn7pd9\\cmTC_5c938.vcxproj" (default targets).
+          Deleting file "cmTC_5c9e3.dir\\Debug\\cmTC_5c9e3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5c9e3.dir\\Debug\\cmTC_5c9e3.tlog\\cmTC_5c9e3.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exv8dp\\cmTC_5c9e3.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.52
         
       exitCode: 0
   -
@@ -2366,8 +2366,8 @@ events:
     checks:
       - "Looking for _copysign"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-bjqoq5"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-bjqoq5"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-82ygq6"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-82ygq6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2377,39 +2377,39 @@ events:
       variable: "LIBC_HAS__COPYSIGN"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-bjqoq5'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-82ygq6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0cda1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a9c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:51 PM.
+        Build started 3/20/2026 3:34:17 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\cmTC_0cda1.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\cmTC_0a9c5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\Debug\\".
-          Creating directory "cmTC_0cda1.dir\\Debug\\cmTC_0cda1.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\Debug\\".
+          Creating directory "cmTC_0a9c5.dir\\Debug\\cmTC_0a9c5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0cda1.dir\\Debug\\cmTC_0cda1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0cda1.dir\\Debug\\cmTC_0cda1.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0a9c5.dir\\Debug\\cmTC_0a9c5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0a9c5.dir\\Debug\\cmTC_0a9c5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0cda1.dir\\Debug\\\\" /Fd"cmTC_0cda1.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0a9c5.dir\\Debug\\\\" /Fd"cmTC_0a9c5.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0cda1.dir\\Debug\\\\" /Fd"cmTC_0cda1.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\CheckSymbolExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0a9c5.dir\\Debug\\\\" /Fd"cmTC_0a9c5.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\Debug\\cmTC_0cda1.exe" /INCREMENTAL /ILK:"cmTC_0cda1.dir\\Debug\\cmTC_0cda1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-bjqoq5/Debug/cmTC_0cda1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-bjqoq5/Debug/cmTC_0cda1.lib" /MACHINE:X64 cmTC_0cda1.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_0cda1.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\Debug\\cmTC_0cda1.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\Debug\\cmTC_0a9c5.exe" /INCREMENTAL /ILK:"cmTC_0a9c5.dir\\Debug\\cmTC_0a9c5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-82ygq6/Debug/cmTC_0a9c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-82ygq6/Debug/cmTC_0a9c5.lib" /MACHINE:X64 cmTC_0a9c5.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_0a9c5.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\Debug\\cmTC_0a9c5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0cda1.dir\\Debug\\cmTC_0cda1.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0cda1.dir\\Debug\\cmTC_0cda1.tlog\\cmTC_0cda1.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bjqoq5\\cmTC_0cda1.vcxproj" (default targets).
+          Deleting file "cmTC_0a9c5.dir\\Debug\\cmTC_0a9c5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0a9c5.dir\\Debug\\cmTC_0a9c5.tlog\\cmTC_0a9c5.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82ygq6\\cmTC_0a9c5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.55
+        Time Elapsed 00:00:00.54
         
       exitCode: 0
   -
@@ -2421,8 +2421,8 @@ events:
     checks:
       - "Looking for _fseeki64"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-94sv60"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-94sv60"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c6v4wh"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c6v4wh"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2432,39 +2432,39 @@ events:
       variable: "LIBC_HAS__FSEEKI64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-94sv60'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c6v4wh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1013.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59d99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:52 PM.
+        Build started 3/20/2026 3:34:18 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\cmTC_c1013.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\cmTC_59d99.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\Debug\\".
-          Creating directory "cmTC_c1013.dir\\Debug\\cmTC_c1013.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\Debug\\".
+          Creating directory "cmTC_59d99.dir\\Debug\\cmTC_59d99.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c1013.dir\\Debug\\cmTC_c1013.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c1013.dir\\Debug\\cmTC_c1013.tlog\\unsuccessfulbuild".
+          Creating "cmTC_59d99.dir\\Debug\\cmTC_59d99.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_59d99.dir\\Debug\\cmTC_59d99.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c1013.dir\\Debug\\\\" /Fd"cmTC_c1013.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_59d99.dir\\Debug\\\\" /Fd"cmTC_59d99.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c1013.dir\\Debug\\\\" /Fd"cmTC_c1013.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\CheckSymbolExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_59d99.dir\\Debug\\\\" /Fd"cmTC_59d99.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\Debug\\cmTC_c1013.exe" /INCREMENTAL /ILK:"cmTC_c1013.dir\\Debug\\cmTC_c1013.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-94sv60/Debug/cmTC_c1013.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-94sv60/Debug/cmTC_c1013.lib" /MACHINE:X64 cmTC_c1013.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_c1013.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\Debug\\cmTC_c1013.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\Debug\\cmTC_59d99.exe" /INCREMENTAL /ILK:"cmTC_59d99.dir\\Debug\\cmTC_59d99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c6v4wh/Debug/cmTC_59d99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c6v4wh/Debug/cmTC_59d99.lib" /MACHINE:X64 cmTC_59d99.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_59d99.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\Debug\\cmTC_59d99.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c1013.dir\\Debug\\cmTC_c1013.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c1013.dir\\Debug\\cmTC_c1013.tlog\\cmTC_c1013.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94sv60\\cmTC_c1013.vcxproj" (default targets).
+          Deleting file "cmTC_59d99.dir\\Debug\\cmTC_59d99.tlog\\unsuccessfulbuild".
+          Touching "cmTC_59d99.dir\\Debug\\cmTC_59d99.tlog\\cmTC_59d99.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c6v4wh\\cmTC_59d99.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.55
+        Time Elapsed 00:00:00.54
         
       exitCode: 0
   -
@@ -2476,8 +2476,8 @@ events:
     checks:
       - "Performing Test HAVE_GAMEINPUT_H"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-02bq5q"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-02bq5q"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-nr1lv7"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-nr1lv7"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2487,39 +2487,39 @@ events:
       variable: "HAVE_GAMEINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-02bq5q'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-nr1lv7'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f782.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3796e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:53 PM.
+        Build started 3/20/2026 3:34:19 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\cmTC_8f782.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\cmTC_3796e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\Debug\\".
-          Creating directory "cmTC_8f782.dir\\Debug\\cmTC_8f782.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\Debug\\".
+          Creating directory "cmTC_3796e.dir\\Debug\\cmTC_3796e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8f782.dir\\Debug\\cmTC_8f782.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8f782.dir\\Debug\\cmTC_8f782.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3796e.dir\\Debug\\cmTC_3796e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3796e.dir\\Debug\\cmTC_3796e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8f782.dir\\Debug\\\\" /Fd"cmTC_8f782.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3796e.dir\\Debug\\\\" /Fd"cmTC_3796e.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8f782.dir\\Debug\\\\" /Fd"cmTC_8f782.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3796e.dir\\Debug\\\\" /Fd"cmTC_3796e.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\Debug\\cmTC_8f782.exe" /INCREMENTAL /ILK:"cmTC_8f782.dir\\Debug\\cmTC_8f782.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-02bq5q/Debug/cmTC_8f782.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-02bq5q/Debug/cmTC_8f782.lib" /MACHINE:X64 cmTC_8f782.dir\\Debug\\src.obj
-          cmTC_8f782.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\Debug\\cmTC_8f782.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\Debug\\cmTC_3796e.exe" /INCREMENTAL /ILK:"cmTC_3796e.dir\\Debug\\cmTC_3796e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-nr1lv7/Debug/cmTC_3796e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-nr1lv7/Debug/cmTC_3796e.lib" /MACHINE:X64 cmTC_3796e.dir\\Debug\\src.obj
+          cmTC_3796e.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\Debug\\cmTC_3796e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8f782.dir\\Debug\\cmTC_8f782.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8f782.dir\\Debug\\cmTC_8f782.tlog\\cmTC_8f782.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02bq5q\\cmTC_8f782.vcxproj" (default targets).
+          Deleting file "cmTC_3796e.dir\\Debug\\cmTC_3796e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3796e.dir\\Debug\\cmTC_3796e.tlog\\cmTC_3796e.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nr1lv7\\cmTC_3796e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.69
+        Time Elapsed 00:00:00.68
         
       exitCode: 0
   -
@@ -2530,8 +2530,8 @@ events:
     checks:
       - "Looking for dxgi1_5.h"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-q1b4q8"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-q1b4q8"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c2xtvd"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c2xtvd"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2541,87 +2541,33 @@ events:
       variable: "HAVE_DXGI1_5_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-q1b4q8'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c2xtvd'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5472b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d483c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:54 PM.
+        Build started 3/20/2026 3:34:20 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\cmTC_5472b.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\cmTC_d483c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\Debug\\".
-          Creating directory "cmTC_5472b.dir\\Debug\\cmTC_5472b.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\Debug\\".
+          Creating directory "cmTC_d483c.dir\\Debug\\cmTC_d483c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5472b.dir\\Debug\\cmTC_5472b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5472b.dir\\Debug\\cmTC_5472b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d483c.dir\\Debug\\cmTC_d483c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d483c.dir\\Debug\\cmTC_d483c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5472b.dir\\Debug\\\\" /Fd"cmTC_5472b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d483c.dir\\Debug\\\\" /Fd"cmTC_d483c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5472b.dir\\Debug\\\\" /Fd"cmTC_5472b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\CheckIncludeFile.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d483c.dir\\Debug\\\\" /Fd"cmTC_d483c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\Debug\\cmTC_5472b.exe" /INCREMENTAL /ILK:"cmTC_5472b.dir\\Debug\\cmTC_5472b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-q1b4q8/Debug/cmTC_5472b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-q1b4q8/Debug/cmTC_5472b.lib" /MACHINE:X64 cmTC_5472b.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_5472b.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\Debug\\cmTC_5472b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\Debug\\cmTC_d483c.exe" /INCREMENTAL /ILK:"cmTC_d483c.dir\\Debug\\cmTC_d483c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c2xtvd/Debug/cmTC_d483c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-c2xtvd/Debug/cmTC_d483c.lib" /MACHINE:X64 cmTC_d483c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d483c.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\Debug\\cmTC_d483c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_5472b.dir\\Debug\\cmTC_5472b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5472b.dir\\Debug\\cmTC_5472b.tlog\\cmTC_5472b.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1b4q8\\cmTC_5472b.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.69
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
-      - "externals/SDL/CMakeLists.txt:2261 (check_include_file)"
-    checks:
-      - "Looking for dxgi1_6.h"
-    directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-cj8q99"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-cj8q99"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/externals/SDL/cmake"
-    buildResult:
-      variable: "HAVE_DXGI1_6_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-cj8q99'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_905d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:55 PM.
-        
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\cmTC_905d7.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\Debug\\".
-          Creating directory "cmTC_905d7.dir\\Debug\\cmTC_905d7.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_905d7.dir\\Debug\\cmTC_905d7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_905d7.dir\\Debug\\cmTC_905d7.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_905d7.dir\\Debug\\\\" /Fd"cmTC_905d7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\CheckIncludeFile.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_905d7.dir\\Debug\\\\" /Fd"cmTC_905d7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\CheckIncludeFile.c"
-          CheckIncludeFile.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\Debug\\cmTC_905d7.exe" /INCREMENTAL /ILK:"cmTC_905d7.dir\\Debug\\cmTC_905d7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-cj8q99/Debug/cmTC_905d7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-cj8q99/Debug/cmTC_905d7.lib" /MACHINE:X64 cmTC_905d7.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_905d7.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\Debug\\cmTC_905d7.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_905d7.dir\\Debug\\cmTC_905d7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_905d7.dir\\Debug\\cmTC_905d7.tlog\\cmTC_905d7.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cj8q99\\cmTC_905d7.vcxproj" (default targets).
+          Deleting file "cmTC_d483c.dir\\Debug\\cmTC_d483c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d483c.dir\\Debug\\cmTC_d483c.tlog\\cmTC_d483c.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2xtvd\\cmTC_d483c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -2633,14 +2579,68 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "externals/SDL/CMakeLists.txt:2261 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a6sljj"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a6sljj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/externals/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a6sljj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cfae5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 3/20/2026 3:34:20 PM.
+        
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\cmTC_cfae5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\Debug\\".
+          Creating directory "cmTC_cfae5.dir\\Debug\\cmTC_cfae5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cfae5.dir\\Debug\\cmTC_cfae5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cfae5.dir\\Debug\\cmTC_cfae5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cfae5.dir\\Debug\\\\" /Fd"cmTC_cfae5.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cfae5.dir\\Debug\\\\" /Fd"cmTC_cfae5.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\Debug\\cmTC_cfae5.exe" /INCREMENTAL /ILK:"cmTC_cfae5.dir\\Debug\\cmTC_cfae5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a6sljj/Debug/cmTC_cfae5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-a6sljj/Debug/cmTC_cfae5.lib" /MACHINE:X64 cmTC_cfae5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_cfae5.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\Debug\\cmTC_cfae5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cfae5.dir\\Debug\\cmTC_cfae5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cfae5.dir\\Debug\\cmTC_cfae5.tlog\\cmTC_cfae5.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6sljj\\cmTC_cfae5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.67
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
       - "externals/SDL/CMakeLists.txt:2268 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_MFAPI_H"
     directories:
-      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-yqu8r0"
-      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-yqu8r0"
+      source: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-otuuoj"
+      binary: "C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-otuuoj"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
@@ -2650,39 +2650,39 @@ events:
       variable: "HAVE_MFAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-yqu8r0'
+        Change Dir: 'C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-otuuoj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ba220.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1b6bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.19+164abd434 for .NET Framework
-        Build started 3/20/2026 12:39:56 PM.
+        Build started 3/20/2026 3:34:21 PM.
         
-        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\cmTC_ba220.vcxproj" on node 1 (default targets).
+        Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\cmTC_1b6bb.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\Debug\\".
-          Creating directory "cmTC_ba220.dir\\Debug\\cmTC_ba220.tlog\\".
+          Creating directory "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\Debug\\".
+          Creating directory "cmTC_1b6bb.dir\\Debug\\cmTC_1b6bb.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ba220.dir\\Debug\\cmTC_ba220.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ba220.dir\\Debug\\cmTC_ba220.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1b6bb.dir\\Debug\\cmTC_1b6bb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1b6bb.dir\\Debug\\cmTC_1b6bb.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ba220.dir\\Debug\\\\" /Fd"cmTC_ba220.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1b6bb.dir\\Debug\\\\" /Fd"cmTC_1b6bb.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ba220.dir\\Debug\\\\" /Fd"cmTC_ba220.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1b6bb.dir\\Debug\\\\" /Fd"cmTC_1b6bb.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\Debug\\cmTC_ba220.exe" /INCREMENTAL /ILK:"cmTC_ba220.dir\\Debug\\cmTC_ba220.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-yqu8r0/Debug/cmTC_ba220.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-yqu8r0/Debug/cmTC_ba220.lib" /MACHINE:X64 cmTC_ba220.dir\\Debug\\src.obj
-          cmTC_ba220.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\Debug\\cmTC_ba220.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\Debug\\cmTC_1b6bb.exe" /INCREMENTAL /ILK:"cmTC_1b6bb.dir\\Debug\\cmTC_1b6bb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-otuuoj/Debug/cmTC_1b6bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Almacenamiento/Programming3Year/BlockC/CPP-GameFramework-SDL3-OpenGL/build/CMakeFiles/CMakeScratch/TryCompile-otuuoj/Debug/cmTC_1b6bb.lib" /MACHINE:X64 cmTC_1b6bb.dir\\Debug\\src.obj
+          cmTC_1b6bb.vcxproj -> C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\Debug\\cmTC_1b6bb.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ba220.dir\\Debug\\cmTC_ba220.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ba220.dir\\Debug\\cmTC_ba220.tlog\\cmTC_ba220.lastbuildstate".
-        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqu8r0\\cmTC_ba220.vcxproj" (default targets).
+          Deleting file "cmTC_1b6bb.dir\\Debug\\cmTC_1b6bb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1b6bb.dir\\Debug\\cmTC_1b6bb.tlog\\cmTC_1b6bb.lastbuildstate".
+        Done Building Project "C:\\Almacenamiento\\Programming3Year\\BlockC\\CPP-GameFramework-SDL3-OpenGL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otuuoj\\cmTC_1b6bb.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.73
         
       exitCode: 0
   -

@@ -4,34 +4,27 @@
 #include <glad/glad.h>
 #include <chrono>
 
+#include "fileLoader.h"
+
+FileLoader fileLoader;
 
 SDL_Window* InitOpenGLWindow()
 {
     // OpenGL Window
-    SDL_Window* window = SDL_CreateWindow("Window", 800, 600, SDL_WINDOW_OPENGL);
-    SDL_GLContext context = SDL_GL_CreateContext(window);
-    gladLoadGL();
-
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
+    SDL_Window* window = SDL_CreateWindow("Window", 800, 600, SDL_WINDOW_OPENGL);
+    SDL_GLContext context = SDL_GL_CreateContext(window);
+    gladLoadGL();
 
     glViewport(0, 0, 800, 600);
 
     return window;
 }
 
-GLuint CreateOpenGLProgram()
+GLuint CreateOpenGLProgram(const char* vs, const char* fs)
 {
-    // OpenGLInit
-    const char* vs = "#version 330 core\n"
-        "layout (location = 0) in vec3 aPos;\n"
-        "void main(){ gl_Position = vec4(aPos,1.0); }";
-
-    const char* fs = "#version 330 core\n"
-        "out vec4 FragColor;\n"
-        "void main(){ FragColor = vec4(1.0,0.5,0.2,1.0); }";
-
     GLuint v = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(v, 1, &vs, nullptr);
     glCompileShader(v);
@@ -78,15 +71,14 @@ GLuint CreateTriangle()
 GLuint CreateQuad()
 {
     float vertices[] = {
-        // first triangle
-        -0.5f, -0.5f, 0.0f,
-         0.5f, -0.5f, 0.0f,
-         0.5f,  0.5f, 0.0f,
+        // pos              // uv
+        -0.5f, -0.5f, 0.0f,  0.0f, 0.0f,
+         0.5f, -0.5f, 0.0f,  1.0f, 0.0f,
+         0.5f,  0.5f, 0.0f,  1.0f, 1.0f,
 
-         // second triangle
-         -0.5f, -0.5f, 0.0f,
-          0.5f,  0.5f, 0.0f,
-         -0.5f,  0.5f, 0.0f
+        -0.5f, -0.5f, 0.0f,  0.0f, 0.0f,
+         0.5f,  0.5f, 0.0f,  1.0f, 1.0f,
+        -0.5f,  0.5f, 0.0f,  0.0f, 1.0f
     };
 
     GLuint VAO, VBO;
@@ -98,14 +90,39 @@ GLuint CreateQuad()
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);
 
     return VAO;
 }
 
+GLuint CreateTexture(const char* path)
+{
+    int w, h, channels;
+    auto data = fileLoader.LoadImageData(path, w, h, channels);
 
-void Render(SDL_Window* window, GLuint program, GLuint VAO, float FameCount)
+    GLuint texture;
+    glGenTextures(1, &texture);
+    glBindTexture(GL_TEXTURE_2D, texture);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    GLenum format = (channels == 4) ? GL_RGBA : GL_RGB;
+    GLenum internalFormat = (channels == 4) ? GL_SRGB_ALPHA : GL_SRGB;
+
+    glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, w, h, 0, format, GL_UNSIGNED_BYTE, data);
+
+    fileLoader.ReleaseImageData(data);
+
+    return texture;
+}
+
+
+void Render(SDL_Window* window, GLuint program, GLuint VAO, GLuint texture, float FameCount)
 {
     glm::vec4 backgroundColor(1, 1 - FameCount * 0.01f, FameCount * 0.01f, 1);
 
@@ -113,7 +130,13 @@ void Render(SDL_Window* window, GLuint program, GLuint VAO, float FameCount)
     glClear(GL_COLOR_BUFFER_BIT);
 
     glUseProgram(program);
+
+    glUniform1i(glGetUniformLocation(program, "tex"), 0);
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, texture);
+
     glBindVertexArray(VAO);
+
     glDrawArrays(GL_TRIANGLES, 0, 6);
 
     SDL_GL_SwapWindow(window);
@@ -124,8 +147,13 @@ int main()
     SDL_Init(SDL_INIT_VIDEO);
 
     SDL_Window* window = InitOpenGLWindow();
-    GLuint program = CreateOpenGLProgram();
+
+    auto vs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadVertex.glsl");
+    auto fs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadFragment.glsl");
+
+    GLuint program = CreateOpenGLProgram(vs.c_str(), fs.c_str());
     GLuint VAO = CreateQuad();
+    GLuint texture = CreateTexture("assets/images/testImage.png");
 
     // FrameTime
     auto prevFrameStart = std::chrono::high_resolution_clock::now();       
@@ -156,7 +184,7 @@ int main()
 
 
         // Render
-        Render(window, program, VAO, FameCount);
+        Render(window, program, VAO, texture, FameCount);
 
         //EndFrameTime
         auto frameEnd = std::chrono::high_resolution_clock::now();

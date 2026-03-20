@@ -4,11 +4,22 @@
     <ClCompile Include="C:\Almacenamiento\Programming3Year\BlockC\CPP-GameFramework-SDL3-OpenGL\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Almacenamiento\Programming3Year\BlockC\CPP-GameFramework-SDL3-OpenGL\src\fileLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Almacenamiento\Programming3Year\BlockC\CPP-GameFramework-SDL3-OpenGL\inc\fileLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Almacenamiento\Programming3Year\BlockC\CPP-GameFramework-SDL3-OpenGL\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18489114-A01E-3C68-B6AC-9BAE577B57C6}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{DD06A499-B18A-3D56-A436-91C8E5516CCC}</UniqueIdentifier>
     </Filter>

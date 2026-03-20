@@ -1,17 +1,36 @@
 cmake_minimum_required(VERSION 3.15...4.2.3)
 
 project(CppGameFramework)
-add_executable(CppGameFramework src/main.cpp)
+
+set(SOURCES
+    src/main.cpp
+    src/fileLoader.cpp
+)
+
+set(HEADERS
+    inc/fileLoader.h
+)
+
+add_executable(CppGameFramework
+    ${SOURCES}
+    ${HEADERS}
+)
+target_include_directories(CppGameFramework PRIVATE inc)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 # glm
-add_library(glm INTERFACE)
-target_include_directories(glm INTERFACE externals/glm)
+target_include_directories(CppGameFramework PRIVATE externals/glm)
+
+# stb
+target_include_directories(CppGameFramework PRIVATE externals/stb)
 
 # SDL3
 set(SDL_SHARED OFF CACHE BOOL "" FORCE)
 set(SDL_STATIC ON CACHE BOOL "" FORCE)
 add_subdirectory(externals/SDL)
-target_link_libraries(CppGameFramework PRIVATE glm SDL3::SDL3-static)
+target_link_libraries(CppGameFramework PRIVATE SDL3::SDL3-static)
 
 # GLAD (manual)
 add_library(glad STATIC externals/glad/src/glad.c)
