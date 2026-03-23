@@ -1,29 +1,22 @@
-#include <iostream>
-#include <SDL3/SDL.h>
-#include <glm/glm.hpp>
-#include <glad/glad.h>
-#include <chrono>
-
+#include "openGLRenderer.h"
 #include "fileLoader.h"
 
 FileLoader fileLoader;
 
-SDL_Window* InitOpenGLWindow()
+void OpenGLRenderer::Init()
 {
-    // OpenGL Window
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
-    SDL_Window* window = SDL_CreateWindow("Window", 800, 600, SDL_WINDOW_OPENGL);
-    SDL_GLContext context = SDL_GL_CreateContext(window);
     gladLoadGL();
-
     glViewport(0, 0, 800, 600);
 
-    return window;
+    auto vs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadVertex.glsl");
+    auto fs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadFragment.glsl");
+    program = CreateOpenGLProgram(vs.c_str(), fs.c_str());
+
+    VAO = CreateQuad();
+    texture = CreateTexture("assets/images/testImage.png");
 }
 
-GLuint CreateOpenGLProgram(const char* vs, const char* fs)
+GLuint OpenGLRenderer::CreateOpenGLProgram(const char* vs, const char* fs)
 {
     GLuint v = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(v, 1, &vs, nullptr);
@@ -44,7 +37,7 @@ GLuint CreateOpenGLProgram(const char* vs, const char* fs)
     return program;
 }
 
-GLuint CreateTriangle()
+GLuint OpenGLRenderer::CreateTriangle()
 {
     // Load Triangle for rendering
     float vertices[] = {
@@ -68,7 +61,7 @@ GLuint CreateTriangle()
     return VAO;
 }
 
-GLuint CreateQuad()
+GLuint OpenGLRenderer::CreateQuad()
 {
     float vertices[] = {
         // pos              // uv
@@ -99,7 +92,7 @@ GLuint CreateQuad()
     return VAO;
 }
 
-GLuint CreateTexture(const char* path)
+GLuint OpenGLRenderer::CreateTexture(const char* path)
 {
     int w, h, channels;
     auto data = fileLoader.LoadImageData(path, w, h, channels);
@@ -121,8 +114,7 @@ GLuint CreateTexture(const char* path)
     return texture;
 }
 
-
-void Render(SDL_Window* window, GLuint program, GLuint VAO, GLuint texture, float FameCount)
+void OpenGLRenderer::Render(SDL_Window* window, float FameCount)
 {
     glm::vec4 backgroundColor(1, 1 - FameCount * 0.01f, FameCount * 0.01f, 1);
 
@@ -140,66 +132,4 @@ void Render(SDL_Window* window, GLuint program, GLuint VAO, GLuint texture, floa
     glDrawArrays(GL_TRIANGLES, 0, 6);
 
     SDL_GL_SwapWindow(window);
-}
-
-int main()
-{
-    SDL_Init(SDL_INIT_VIDEO);
-
-    SDL_Window* window = InitOpenGLWindow();
-
-    auto vs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadVertex.glsl");
-    auto fs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadFragment.glsl");
-
-    GLuint program = CreateOpenGLProgram(vs.c_str(), fs.c_str());
-    GLuint VAO = CreateQuad();
-    GLuint texture = CreateTexture("assets/images/testImage.png");
-
-    // FrameTime
-    auto prevFrameStart = std::chrono::high_resolution_clock::now();       
-    bool run = true;
-    const float frameRate = 1.0f / 60.0f;
-    int FameCount = 0;
-
-    // Input
-    SDL_Event event;    
-
-    while (run)
-    {
-        // StartFrameTime
-        auto currentFrameStart = std::chrono::high_resolution_clock::now();
-        float deltaTime = std::chrono::duration<float>(currentFrameStart - prevFrameStart).count();
-        prevFrameStart = currentFrameStart;
-
-        // Input
-        while (SDL_PollEvent(&event))
-        {
-            if (event.type == SDL_EVENT_KEY_DOWN)
-            {
-                if (event.key.key == SDLK_Q) run = false;
-            }
-        }
-
-        // Update
-
-
-        // Render
-        Render(window, program, VAO, texture, FameCount);
-
-        //EndFrameTime
-        auto frameEnd = std::chrono::high_resolution_clock::now();
-        float frameTime = std::chrono::duration<float>(frameEnd - currentFrameStart).count();
-
-        if (frameTime < frameRate)
-        {
-            SDL_Delay((frameRate - frameTime) * 1000.0f);
-        }
-
-        std::cout << deltaTime << "\n";
-        FameCount++;
-    }
-
-    // Close App
-    SDL_DestroyWindow(window);
-    SDL_Quit();
 }

@@ -3,19 +3,30 @@ cmake_minimum_required(VERSION 3.15...4.2.3)
 project(CppGameFramework)
 
 set(SOURCES
-    src/main.cpp
-    src/fileLoader.cpp
+    framework/src/main.cpp
+    framework/src/fileLoader.cpp
+    framework/src/entitySystem.cpp
+    framework/src/openGLRenderer.cpp
+    framework/src/sdlApp.cpp 
+    game/src/game.cpp   
 )
 
 set(HEADERS
-    inc/fileLoader.h
+    framework/inc/fileLoader.h
+    framework/inc/entitySystem.h
+    framework/inc/openGLRenderer.h
+    framework/inc/sdlApp.h
+    game/inc/game.h
 )
 
 add_executable(CppGameFramework
     ${SOURCES}
     ${HEADERS}
 )
-target_include_directories(CppGameFramework PRIVATE inc)
+target_include_directories(CppGameFramework PRIVATE     
+    framework/inc
+    game/inc
+)
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets
      DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
