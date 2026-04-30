@@ -2,7 +2,6 @@
 #include <glm/glm.hpp>
 #include "sdlApp.h"
 #include "openGLRenderer.h"
-#include "fileLoader.h"
 #include "game.h"
 
 int main()
@@ -15,6 +14,7 @@ int main()
 
     Game game;
     game.Init();
+    game.sdlApp = &sdlApp;
 
     float targetFrameTime = 1.0f / 60.0f;
     bool run = true;
@@ -23,7 +23,6 @@ int main()
         // Frame time init
         sdlApp.InitFrameTiming();
         float dt = sdlApp.GetDeltaTime();
-        int frameCount = sdlApp.GetFrameCount();
 
         // Input
         sdlApp.UpdateInput();
@@ -35,7 +34,7 @@ int main()
 
         // Render
         auto window = sdlApp.GetWindow();
-        renderer.Render(window, frameCount);
+        renderer.Render(window, game.camera, game.renderStorage);
 
         // Frame time end
         sdlApp.EndFrameTiming();

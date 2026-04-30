@@ -35,7 +35,7 @@ public:
 	{
 		for (auto& c : m_components)
 		{
-			T* result = dynamic_cast<T*>(c.get());
+			T* result = dynamic_cast<T*>(c);
 			if (result) return result;
 		}
 		return nullptr;

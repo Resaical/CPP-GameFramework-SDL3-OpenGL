@@ -1,5 +1,8 @@
 #include "openGLRenderer.h"
 #include "fileLoader.h"
+#include "basicComponents.h"
+#include <glm/gtc/type_ptr.hpp>
+
 
 FileLoader fileLoader;
 
@@ -8,12 +11,11 @@ void OpenGLRenderer::Init()
     gladLoadGL();
     glViewport(0, 0, 800, 600);
 
-    auto vs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadVertex.glsl");
-    auto fs = fileLoader.LoadTextFileInString("assets/shaders/textureQuadFragment.glsl");
+    auto vs = fileLoader.LoadTextFileInString("assets/shaders/basic2DVertex.glsl");
+    auto fs = fileLoader.LoadTextFileInString("assets/shaders/basic2DFragment.glsl");
     program = CreateOpenGLProgram(vs.c_str(), fs.c_str());
 
     VAO = CreateQuad();
-    texture = CreateTexture("assets/images/testImage.png");
 }
 
 GLuint OpenGLRenderer::CreateOpenGLProgram(const char* vs, const char* fs)
@@ -74,6 +76,13 @@ GLuint OpenGLRenderer::CreateQuad()
         -0.5f,  0.5f, 0.0f,  0.0f, 1.0f
     };
 
+    
+    for (auto& v : vertices)
+    {
+        if (v == 0.0f || v == 1.0f) continue;
+        v *= 64.0f;
+    }
+
     GLuint VAO, VBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
@@ -101,8 +110,8 @@ GLuint OpenGLRenderer::CreateTexture(const char* path)
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_2D, texture);
 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
     GLenum format = (channels == 4) ? GL_RGBA : GL_RGB;
     GLenum internalFormat = (channels == 4) ? GL_SRGB_ALPHA : GL_SRGB;
@@ -114,22 +123,56 @@ GLuint OpenGLRenderer::CreateTexture(const char* path)
     return texture;
 }
 
-void OpenGLRenderer::Render(SDL_Window* window, float FameCount)
+glm::mat4 Mat3ToMat4(const glm::mat3& m)
 {
-    glm::vec4 backgroundColor(1, 1 - FameCount * 0.01f, FameCount * 0.01f, 1);
+    glm::mat4 result(1.0f);
+
+    result[0][0] = m[0][0];
+    result[0][1] = m[0][1];
+
+    result[1][0] = m[1][0];
+    result[1][1] = m[1][1];
+
+    result[3][0] = m[2][0]; // tx
+    result[3][1] = m[2][1]; // ty
+
+    return result;
+}
+
+void OpenGLRenderer::Render(SDL_Window* window, Camera* camera, RenderStorage* renderStorage)
+{
+    glm::vec4 backgroundColor(0,0,0.25f,1);
 
     glClearColor(backgroundColor.x, backgroundColor.y, backgroundColor.z, backgroundColor.w);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    glUseProgram(program);
+    auto camEntity = camera->entity;
+    Transform2D* camTransform = camEntity->GetComponent<Transform2D>();
 
-    glUniform1i(glGetUniformLocation(program, "tex"), 0);
-    glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, texture);
+    glm::mat3 view = camera->GetViewMatrix(camTransform->GetWorldPosition(), camTransform->GetWorldRotation());
+    glm::mat4 proj = camera->GetProjectionMatrix();
 
-    glBindVertexArray(VAO);
+    for (auto& ir : renderStorage->imageRenders)
+    {
+        auto e = ir->entity;
+        Transform2D* t = e->GetComponent<Transform2D>();
+        auto model = t->model2D;
 
-    glDrawArrays(GL_TRIANGLES, 0, 6);
+        glUseProgram(program);
 
+        glm::mat4 vp = Mat3ToMat4(view * model);
+        glm::mat4 mvp = proj * vp;
+
+        GLint mvpLoc = glGetUniformLocation(program, "mvp");
+        glUniformMatrix4fv(mvpLoc, 1, GL_FALSE, glm::value_ptr(mvp));
+
+        glUniform1i(glGetUniformLocation(program, "tex"), 0);
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, ir->texture);
+
+        glBindVertexArray(VAO);
+
+        glDrawArrays(GL_TRIANGLES, 0, 6);
+    }
     SDL_GL_SwapWindow(window);
 }

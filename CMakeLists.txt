@@ -8,6 +8,7 @@ set(SOURCES
     framework/src/entitySystem.cpp
     framework/src/openGLRenderer.cpp
     framework/src/sdlApp.cpp 
+    framework/src/basicComponents.cpp
     game/src/game.cpp   
 )
 
@@ -16,6 +17,7 @@ set(HEADERS
     framework/inc/entitySystem.h
     framework/inc/openGLRenderer.h
     framework/inc/sdlApp.h
+    framework/inc/basicComponents.h
     game/inc/game.h
 )
 
@@ -51,3 +53,4 @@ target_link_libraries(CppGameFramework PRIVATE glad)
 # OpenGL
 find_package(OpenGL REQUIRED)
 target_link_libraries(CppGameFramework PRIVATE OpenGL::GL)
+
