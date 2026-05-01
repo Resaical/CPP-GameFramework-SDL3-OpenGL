@@ -3,6 +3,13 @@
 #include <vector>
 #include <chrono>
 
+struct Key
+{
+	bool wasPressedDownThisFrame = false;
+	bool IsDown = false;
+	bool releasedThisFrame = false;
+};
+
 
 class SDLApp
 {
@@ -12,28 +19,23 @@ public:
 	~SDLApp() {};
 
 	void Init();
-
-	void UpdateInput();
+	SDL_Window* InitOpenGLWindow();
+	SDL_Window* GetWindow() { return window; };
 
 	void InitFrameTiming();
-
-	void EndFrameTiming();
-
 	void WaitForTargetFramerate(float targetFrameTime);
+	void EndFrameTiming();
 
 	void EndSession();
 
+	void UpdateInput();
+	bool KeyWasPressedThisFrame(unsigned int SDL_SCANCODE_Key);
+	bool KeyIsDown(unsigned int SDL_SCANCODE_Key);
+	bool KeyReleasedThisFrame(unsigned int SDL_SCANCODE_Key);
+
 	// Utility
 	float GetDeltaTime() { return deltaTime; }
-
 	int GetFrameCount() { return FameCount; }
-
-	SDL_Window* InitOpenGLWindow();
-
-	SDL_Window* GetWindow() { return window; };
-
-	bool KeyIsDown(unsigned int SDL_Key);
-
 
 private:
 
@@ -49,4 +51,5 @@ private:
 	int FameCount = 0;
 	float deltaTime = 0;
 
+	Key* keys = nullptr;
 };

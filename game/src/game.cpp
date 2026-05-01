@@ -104,20 +104,20 @@ void Game::Update(float dt)
 	float jumpForce = 15000;
 	float movementForce = 750;
 
-	if (sdlApp->KeyIsDown(SDLK_SPACE))
+	if (sdlApp->KeyWasPressedThisFrame(SDL_SCANCODE_SPACE))
 	{
 		auto physics = character->GetComponent<Physics>();
 		physics->f += glm::vec2(0, jumpForce);
 	}
 
 
-	if (sdlApp->KeyIsDown(SDLK_LEFT))
+	if (sdlApp->KeyIsDown(SDL_SCANCODE_LEFT))
 	{
 		auto physics = character->GetComponent<Physics>();
 		physics->f += glm::vec2(-movementForce, 0);
 	}
 
-	if (sdlApp->KeyIsDown(SDLK_RIGHT))
+	if (sdlApp->KeyIsDown(SDL_SCANCODE_RIGHT))
 	{
 		auto physics = character->GetComponent<Physics>();
 		physics->f += glm::vec2( movementForce, 0);
