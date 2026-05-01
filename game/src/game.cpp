@@ -3,6 +3,7 @@
 #include <basicComponents.h>
 #include "openGLRenderer.h"
 #include "sdlApp.h"
+#include "2DSimplePhysics.h"
 //#include "box2d.h"
 
 

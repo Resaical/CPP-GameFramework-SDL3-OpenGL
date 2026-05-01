@@ -9,6 +9,7 @@ set(SOURCES
     framework/src/openGLRenderer.cpp
     framework/src/sdlApp.cpp 
     framework/src/basicComponents.cpp
+    framework/src/2DSimplePhysics.cpp
     game/src/game.cpp   
 )
 
@@ -18,6 +19,7 @@ set(HEADERS
     framework/inc/openGLRenderer.h
     framework/inc/sdlApp.h
     framework/inc/basicComponents.h
+    framework/inc/2DSimplePhysics.h
     game/inc/game.h
 )
 
