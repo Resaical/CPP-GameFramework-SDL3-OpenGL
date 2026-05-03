@@ -13,8 +13,9 @@ int main()
     renderer.Init();
 
     Game game;
-    game.Init();
     game.sdlApp = &sdlApp;
+    game.renderer = &renderer;
+    game.Init();
 
     float targetFrameTime = 1.0f / 60.0f;
     bool run = true;

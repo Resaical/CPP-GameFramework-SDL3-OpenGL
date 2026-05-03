@@ -8,7 +8,7 @@ class Component
 {
 public:
 	Component() {}
-	virtual ~Component() {}
+	virtual ~Component() { delete entity; }
 
 	virtual void Init() {}
 	virtual void Update(float dt) {}

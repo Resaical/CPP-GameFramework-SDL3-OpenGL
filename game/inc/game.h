@@ -37,6 +37,6 @@ public:
 	RenderStorage* renderStorage;
 	PhysicsSystem2D* physicsSystem2D;
 
-	Entity* floor;
-	Entity* character;
+	Entity* box1;
+	Entity* box2;
 };

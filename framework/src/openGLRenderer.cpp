@@ -11,11 +11,19 @@ void OpenGLRenderer::Init()
     gladLoadGL();
     glViewport(0, 0, 800, 600);
 
-    auto vs = fileLoader.LoadTextFileInString("assets/shaders/basic2DVertex.glsl");
-    auto fs = fileLoader.LoadTextFileInString("assets/shaders/basic2DFragment.glsl");
-    program = CreateOpenGLProgram(vs.c_str(), fs.c_str());
+    // Texture quad
+    auto tvs = fileLoader.LoadTextFileInString("assets/shaders/basic2DVertex.glsl");
+    auto tfs = fileLoader.LoadTextFileInString("assets/shaders/basic2DFragment.glsl");
+    program = CreateOpenGLProgram(tvs.c_str(), tfs.c_str());
 
     VAO = CreateQuad();
+
+    // Debug line
+    auto lvs = fileLoader.LoadTextFileInString("assets/shaders/lineDebugVertex.glsl");
+    auto lfs = fileLoader.LoadTextFileInString("assets/shaders/lineDebugFragment.glsl");
+    lineProgram = CreateOpenGLProgram(lvs.c_str(), lfs.c_str());
+
+    CreateLine(lineVAO, lineVBO);
 }
 
 GLuint OpenGLRenderer::CreateOpenGLProgram(const char* vs, const char* fs)
@@ -37,6 +45,19 @@ GLuint OpenGLRenderer::CreateOpenGLProgram(const char* vs, const char* fs)
     glDeleteShader(f);
 
     return program;
+}
+
+void OpenGLRenderer::CreateLine(GLuint& VAO, GLuint& VBO)
+{
+    glGenVertexArrays(1, &VAO);
+    glGenBuffers(1, &VBO);
+
+    glBindVertexArray(lineVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 6, nullptr, GL_DYNAMIC_DRAW);
+
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);    
 }
 
 GLuint OpenGLRenderer::CreateTriangle()
@@ -152,6 +173,7 @@ void OpenGLRenderer::Render(SDL_Window* window, Camera* camera, RenderStorage* r
     glm::mat3 view = camera->GetViewMatrix(camTransform->GetWorldPosition(), camTransform->GetWorldRotation());
     glm::mat4 proj = camera->GetProjectionMatrix();
 
+    // Render quads
     for (auto& ir : renderStorage->imageRenders)
     {
         auto e = ir->entity;
@@ -160,8 +182,8 @@ void OpenGLRenderer::Render(SDL_Window* window, Camera* camera, RenderStorage* r
 
         glUseProgram(program);
 
-        glm::mat4 vp = Mat3ToMat4(view * model);
-        glm::mat4 mvp = proj * vp;
+        glm::mat4 mv = Mat3ToMat4(view * model);
+        glm::mat4 mvp = proj * mv;
 
         GLint mvpLoc = glGetUniformLocation(program, "mvp");
         glUniformMatrix4fv(mvpLoc, 1, GL_FALSE, glm::value_ptr(mvp));
@@ -174,5 +196,54 @@ void OpenGLRenderer::Render(SDL_Window* window, Camera* camera, RenderStorage* r
 
         glDrawArrays(GL_TRIANGLES, 0, 6);
     }
+
+    // Debug
+    if (debugDraw)
+    {
+        auto vp = proj * Mat3ToMat4(view);
+
+        for (auto dl : debugLines)
+        {
+            RenderLine(dl.start, dl.end, dl.color, vp);
+        }
+        debugLines.clear();
+    }
+
     SDL_GL_SwapWindow(window);
+}
+
+void OpenGLRenderer::RenderLine(glm::vec3 a, glm::vec3 b, glm::vec3 color, glm::mat4 vp)
+{
+    float vertices[] = {
+        a.x, a.y, a.z,
+        b.x, b.y, b.z
+    };
+
+    glUseProgram(lineProgram);
+
+    glUniformMatrix4fv(glGetUniformLocation(lineProgram, "vp"), 1, GL_FALSE, glm::value_ptr(vp));
+    auto colorUniformLocation = glGetUniformLocation(lineProgram, "color");
+    glUniform3fv(colorUniformLocation, 1, glm::value_ptr(color));
+
+    glBindVertexArray(lineVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, lineVBO);
+    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(vertices), vertices);
+
+    glDrawArrays(GL_LINES, 0, 2);
+}
+
+void OpenGLRenderer::DrawDebugBox(glm::vec2 center, glm::vec2 size, glm::vec3 color)
+{
+    float hx = size.x;
+    float hy = size.y;
+
+    glm::vec3 v0 = { center.x - hx, center.y - hy, 0 };
+    glm::vec3 v1 = { center.x + hx, center.y - hy, 0 };
+    glm::vec3 v2 = { center.x + hx, center.y + hy, 0 };
+    glm::vec3 v3 = { center.x - hx, center.y + hy, 0 };
+
+    DrawDebugLine(v0, v1, color);
+    DrawDebugLine(v1, v2, color);
+    DrawDebugLine(v2, v3, color);
+    DrawDebugLine(v3, v0, color);
 }

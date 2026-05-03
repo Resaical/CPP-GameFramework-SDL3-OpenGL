@@ -4,7 +4,11 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glad/glad.h>
 
-struct Collision
+class OpenGLRenderer;
+
+enum ColliderType{ NONE, CIRCLE, BOX };
+
+struct Overlaping
 {
 	Entity* entity;
 	Entity* other;
@@ -12,19 +16,60 @@ struct Collision
 
 class PhysicsSystem2D;
 
-class BoxCollider2D : public Component
+class Collider2D
+{
+public:
+	Collider2D() {};
+	~Collider2D() { delete colliderEntity; };
+
+	void AddToPhysicsSystem(PhysicsSystem2D* physicsSystem);
+
+	ColliderType GetType() { return type; }
+
+	Entity* colliderEntity = nullptr;
+	ColliderType type = NONE;
+};
+
+class CircleCollider2D : public Component, public Collider2D
+{
+public:
+
+	CircleCollider2D() {};
+	~CircleCollider2D() {};
+
+	void Init() override 
+	{ 
+		colliderEntity = entity;
+		type = CIRCLE; 
+	}
+
+	float radius = 32;
+};
+
+class BoxCollider2D : public Component, public Collider2D
 {
 public:
 
 	BoxCollider2D() {};
 	~BoxCollider2D() {};
 
-	void AddToPhysicsSystem(PhysicsSystem2D* physicsSystem);
-	bool IsCollidingThisFrame(PhysicsSystem2D* physicsSystem, Collision& collisio);
+	void Init() override
+	{
+		colliderEntity = entity;
+		type = BOX;
+	}
+
+	void Update(float dt) override;
+	void SetRendererForDebug(OpenGLRenderer* inOpenGLRenderer);	
 
 	float halfWidth = 32;
 	float halfHeight = 32;
 
+	bool debug = true;
+	glm::vec3 debugColor = glm::vec3(0, 1, 1);
+
+private:
+	OpenGLRenderer* openGLRenderer;
 };
 
 class Physics;
@@ -35,13 +80,20 @@ public:
 	PhysicsSystem2D() {};
 	~PhysicsSystem2D() 
 	{
-		boxColliders2D.clear();
+		colliders2D.clear();
 		physicsEntities.clear();
 	};
 
 	void Update(float dt);
 
-	std::vector<BoxCollider2D*> boxColliders2D;
+	std::vector<Overlaping> GetAllOverlapings(Collider2D* c1);
+
+	bool AreColliders2DOverlaping(Collider2D* c1, Collider2D* c2);
+	bool IsCircleCircleOverlap(CircleCollider2D* c1, CircleCollider2D* c2);
+	bool IsBoxBoxOverlap(BoxCollider2D* b1, BoxCollider2D* b2);
+	bool IsCircleBoxOverlap(CircleCollider2D* c, BoxCollider2D* b);
+
+	std::vector<Collider2D*> colliders2D;
 	std::vector<Physics*> physicsEntities;
 };
 

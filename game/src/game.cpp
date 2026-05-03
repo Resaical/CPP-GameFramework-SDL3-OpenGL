@@ -4,17 +4,10 @@
 #include "openGLRenderer.h"
 #include "sdlApp.h"
 #include "2DSimplePhysics.h"
-//#include "box2d.h"
 
 
 void Game::Init()
 {
-	//// Box2D
-	//bworld = new b2WorldDef();
-	//b2CreateWorld(bworld);
-	
-
-
 	entitySystem = new EntitySystem();
 	renderStorage = new RenderStorage();
 	physicsSystem2D = new PhysicsSystem2D();
@@ -24,74 +17,47 @@ void Game::Init()
 	auto camTransform = camEntity->AddComponent<Transform2D>();
 	camera = camEntity->AddComponent<Camera>();
 
-	// Floor
+	// Box 1
 	{
 		auto entity = entitySystem->CreateEntity();
+		box1 = entity;
 
 		auto transform = entity->AddComponent<Transform2D>();
-		transform->SetScale({ 8,1 });
-		transform->SetWorldPosition({ 0,-256 });
+		transform->SetWorldPosition({ 0, 0 });
 
-		auto imageRenderer = entity->AddComponent<ImageRender>();
-		imageRenderer->AddToRenderStorage(renderStorage);
-		imageRenderer->texture = renderer->CreateTexture("assets/images/Floor.png");
+		//auto imageRenderer = entity->AddComponent<ImageRender>();
+		//imageRenderer->AddToRenderStorage(renderStorage);
+		//imageRenderer->texture = renderer->CreateTexture("assets/images/testImage.png");
 
 		auto boxCollider2D = entity->AddComponent<BoxCollider2D>();
 		boxCollider2D->AddToPhysicsSystem(physicsSystem2D);
-		boxCollider2D->halfWidth = 32 * 8;
-		boxCollider2D->halfHeight = 32;
-
-		floor = entity;
-	}
-
-	// Floor 2
-	{
-		auto entity = entitySystem->CreateEntity();
-
-		auto transform = entity->AddComponent<Transform2D>();
-		transform->SetScale({ 8,1 });
-		transform->SetWorldPosition({ 256,0 });
-
-		auto imageRenderer = entity->AddComponent<ImageRender>();
-		imageRenderer->AddToRenderStorage(renderStorage);
-		imageRenderer->texture = renderer->CreateTexture("assets/images/Floor.png");
-
-		auto boxCollider2D = entity->AddComponent<BoxCollider2D>();
-		boxCollider2D->AddToPhysicsSystem(physicsSystem2D);
-		boxCollider2D->halfWidth = 32 * 8;
-		boxCollider2D->halfHeight = 32;
-
-		floor = entity;
-	}
-
-
-	// Character
-	{
-		auto entity = entitySystem->CreateEntity();
-
-		auto transform = entity->AddComponent<Transform2D>();
-		transform->SetWorldPosition({ 0, 256 });
-
-		auto imageRenderer = entity->AddComponent<ImageRender>();
-		imageRenderer->AddToRenderStorage(renderStorage);
-		imageRenderer->texture = renderer->CreateTexture("assets/images/testImage.png");
-
-		auto boxCollider2D = entity->AddComponent<BoxCollider2D>();
-		boxCollider2D->AddToPhysicsSystem(physicsSystem2D);
+		boxCollider2D->SetRendererForDebug(renderer);
 		boxCollider2D->halfWidth = 32;
 		boxCollider2D->halfHeight = 32;
-
-		auto physics = entity->AddComponent<Physics>();
-		physics->AddToPhysicsSystem(physicsSystem2D);
-
-		auto gravity = entity->AddComponent<Gravity>();
-
-		auto collisionResponseBounce = entity->AddComponent<CollisionResolutionBounce>();
-		collisionResponseBounce->AddPhysicsSystem2DReference(physicsSystem2D);
-
-		character = entity;
 	}
 
+	for (int i = 0; i < 20; i++)
+	{
+
+		// Box 2
+		{
+			auto entity = entitySystem->CreateEntity();
+			box2 = entity;
+
+			auto transform = entity->AddComponent<Transform2D>();
+			transform->SetWorldPosition({ (rand() % 800) - 400, (rand() % 600) - 300 });
+
+			//auto imageRenderer = entity->AddComponent<ImageRender>();
+			//imageRenderer->AddToRenderStorage(renderStorage);
+			//imageRenderer->texture = renderer->CreateTexture("assets/images/testImage.png");
+
+			auto boxCollider2D = entity->AddComponent<BoxCollider2D>();
+			boxCollider2D->AddToPhysicsSystem(physicsSystem2D);
+			boxCollider2D->SetRendererForDebug(renderer);
+			boxCollider2D->halfWidth = 32;
+			boxCollider2D->halfHeight = 32;
+		}
+	}
 
 	// Init entities
 	entitySystem->Init();
@@ -102,27 +68,49 @@ void Game::Update(float dt)
 	// Physics
 	physicsSystem2D->Update(dt);
 
-	float jumpForce = 15000;
-	float movementForce = 750;
+	auto t1 = box1->GetComponent<Transform2D>();
+	auto t2 = box2->GetComponent<Transform2D>();
+	auto b1 = box1->GetComponent<BoxCollider2D>();
+	auto b2 = box2->GetComponent<BoxCollider2D>();
 
-	if (sdlApp->KeyWasPressedThisFrame(SDL_SCANCODE_SPACE))
-	{
-		auto physics = character->GetComponent<Physics>();
-		physics->f += glm::vec2(0, jumpForce);
-	}
-
-
+	float speed = 2;
 	if (sdlApp->KeyIsDown(SDL_SCANCODE_LEFT))
 	{
-		auto physics = character->GetComponent<Physics>();
-		physics->f += glm::vec2(-movementForce, 0);
+		auto currentPos = t1->GetWorldPosition();
+		auto newPos = currentPos - glm::vec2(speed,0);
+		t1->SetWorldPosition(newPos);
 	}
-
 	if (sdlApp->KeyIsDown(SDL_SCANCODE_RIGHT))
 	{
-		auto physics = character->GetComponent<Physics>();
-		physics->f += glm::vec2( movementForce, 0);
+		auto currentPos = t1->GetWorldPosition();
+		auto newPos = currentPos + glm::vec2(speed, 0);
+		t1->SetWorldPosition(newPos);
+
 	}
+	if (sdlApp->KeyIsDown(SDL_SCANCODE_UP))
+	{
+		auto currentPos = t1->GetWorldPosition();
+		auto newPos = currentPos + glm::vec2(0, speed);
+		t1->SetWorldPosition(newPos);
+	}
+	if (sdlApp->KeyIsDown(SDL_SCANCODE_DOWN))
+	{
+		auto currentPos = t1->GetWorldPosition();
+		auto newPos = currentPos - glm::vec2(0, speed);
+		t1->SetWorldPosition(newPos);
+
+	}
+	if (sdlApp->KeyWasPressedThisFrame(SDL_SCANCODE_SPACE))
+	{
+	}
+
+	bool overlap = false;
+	auto overlapings = physicsSystem2D->GetAllOverlapings(b1);
+
+	if (!overlapings.empty()) overlap = true;
+	
+	if (overlap) b1->debugColor = glm::vec3(1, 0, 0);
+	else b1->debugColor = glm::vec3(0, 1, 0);
 
 	// Update entities
 	entitySystem->Update(dt);
