@@ -4,23 +4,26 @@
 #include <glm/gtc/type_ptr.hpp>
 
 
-FileLoader fileLoader;
 
-void OpenGLRenderer::Init()
+void OpenGLRenderer::Init(FileLoader* fileLoaderIn)
 {
+    fileLoader = fileLoaderIn;
+
     gladLoadGL();
     glViewport(0, 0, 800, 600);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     // Texture quad
-    auto tvs = fileLoader.LoadTextFileInString("assets/shaders/basic2DVertex.glsl");
-    auto tfs = fileLoader.LoadTextFileInString("assets/shaders/basic2DFragment.glsl");
+    auto tvs = fileLoader->LoadTextFileInString("assets/shaders/basic2DVertex.glsl");
+    auto tfs = fileLoader->LoadTextFileInString("assets/shaders/basic2DFragment.glsl");
     program = CreateOpenGLProgram(tvs.c_str(), tfs.c_str());
 
     VAO = CreateQuad();
 
     // Debug line
-    auto lvs = fileLoader.LoadTextFileInString("assets/shaders/lineDebugVertex.glsl");
-    auto lfs = fileLoader.LoadTextFileInString("assets/shaders/lineDebugFragment.glsl");
+    auto lvs = fileLoader->LoadTextFileInString("assets/shaders/lineDebugVertex.glsl");
+    auto lfs = fileLoader->LoadTextFileInString("assets/shaders/lineDebugFragment.glsl");
     lineProgram = CreateOpenGLProgram(lvs.c_str(), lfs.c_str());
 
     CreateLine(lineVAO, lineVBO);
@@ -35,6 +38,7 @@ GLuint OpenGLRenderer::CreateOpenGLProgram(const char* vs, const char* fs)
     GLuint f = glCreateShader(GL_FRAGMENT_SHADER);
     glShaderSource(f, 1, &fs, nullptr);
     glCompileShader(f);
+
 
     GLuint program = glCreateProgram();
     glAttachShader(program, v);
@@ -125,7 +129,7 @@ GLuint OpenGLRenderer::CreateQuad()
 GLuint OpenGLRenderer::CreateTexture(const char* path)
 {
     int w, h, channels;
-    auto data = fileLoader.LoadImageData(path, w, h, channels);
+    auto data = fileLoader->LoadImageData(path, w, h, channels);
 
     GLuint texture;
     glGenTextures(1, &texture);
@@ -139,12 +143,34 @@ GLuint OpenGLRenderer::CreateTexture(const char* path)
 
     glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, w, h, 0, format, GL_UNSIGNED_BYTE, data);
 
-    fileLoader.ReleaseImageData(data);
+    fileLoader->ReleaseImageData(data);
 
     return texture;
 }
 
-glm::mat4 Mat3ToMat4(const glm::mat3& m)
+GLuint OpenGLRenderer::CreateTexture(const char* path, int& pixelWidth, int& pixelHeight)
+{
+    int channels;
+    auto data = fileLoader->LoadImageData(path, pixelWidth, pixelHeight, channels);
+
+    GLuint texture;
+    glGenTextures(1, &texture);
+    glBindTexture(GL_TEXTURE_2D, texture);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+
+    GLenum format = (channels == 4) ? GL_RGBA : GL_RGB;
+    GLenum internalFormat = (channels == 4) ? GL_SRGB_ALPHA : GL_SRGB;
+
+    glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, pixelWidth, pixelHeight, 0, format, GL_UNSIGNED_BYTE, data);
+
+    fileLoader->ReleaseImageData(data);
+
+    return texture;
+}
+
+glm::mat4 OpenGLRenderer::Mat3ToMat4(const glm::mat3& m)
 {
     glm::mat4 result(1.0f);
 
@@ -162,11 +188,6 @@ glm::mat4 Mat3ToMat4(const glm::mat3& m)
 
 void OpenGLRenderer::Render(SDL_Window* window, Camera* camera, RenderStorage* renderStorage)
 {
-    glm::vec4 backgroundColor(0,0,0.25f,1);
-
-    glClearColor(backgroundColor.x, backgroundColor.y, backgroundColor.z, backgroundColor.w);
-    glClear(GL_COLOR_BUFFER_BIT);
-
     auto camEntity = camera->entity;
     Transform2D* camTransform = camEntity->GetComponent<Transform2D>();
 
@@ -208,8 +229,14 @@ void OpenGLRenderer::Render(SDL_Window* window, Camera* camera, RenderStorage* r
         }
         debugLines.clear();
     }
+}
 
-    SDL_GL_SwapWindow(window);
+void OpenGLRenderer::RenderBackground()
+{
+    glm::vec4 backgroundColor(0, 0, 0.25f, 1);
+
+    glClearColor(backgroundColor.x, backgroundColor.y, backgroundColor.z, backgroundColor.w);
+    glClear(GL_COLOR_BUFFER_BIT);
 }
 
 void OpenGLRenderer::RenderLine(glm::vec3 a, glm::vec3 b, glm::vec3 color, glm::mat4 vp)

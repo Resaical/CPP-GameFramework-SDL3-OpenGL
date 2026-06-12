@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
+#include <map>
 
+#define MAX_UPDATE_GROUP 6
 
 class Entity;
 
@@ -12,9 +14,14 @@ public:
 
 	virtual void Init() {}
 	virtual void Update(float dt) {}
-
+	void SetUpdateGroup(int updateGroupIn = MAX_UPDATE_GROUP) 
+	{
+		updateGroup = updateGroupIn;
+	};
+	
 	Entity* entity = nullptr;
 	bool Active = true;
+	int updateGroup = MAX_UPDATE_GROUP;
 };
 
 class Entity
@@ -49,10 +56,11 @@ public:
 		}
 	}
 
-	void Update(float dt) 
+	void Update(int updateGroup, float dt) 
 	{
 		for (auto& c : m_components) 
 		{
+			if (c->updateGroup != updateGroup) continue;
 			if (!c->Active) continue;
 			c->Update(dt);
 		}
@@ -70,32 +78,66 @@ public:
 	EntitySystem() {};
 	~EntitySystem() 
 	{
-		m_entities.clear();
+		for (auto e : entities)
+		{
+			delete e;
+		}
+		entities.clear();
 	};
 
 	Entity* CreateEntity()
 	{
 		Entity* e = new Entity();
-		m_entities.push_back(e);
+		entities.push_back(e);
 		return e;
 	}
 
 	void Init()
 	{
-		for (auto& e : m_entities)
+		for (int i = 0; i < (MAX_UPDATE_GROUP + 1); i++)
+		{
+			groupUpdated.push_back(false);
+		}
+
+		for (auto& e : entities)
 		{
 			e->Init();
 		}
 
 	}
 
-	void Update(float dt)
+	void UpdateGroup(float dt, int updateGroup = 0)
 	{
-		for (auto& e : m_entities)
+		if (updateGroup > MAX_UPDATE_GROUP) return;
+
+		for (auto e : entities)
 		{
-			e->Update(dt);
+			e->Update(updateGroup, dt);
 		}
+
+		groupUpdated[updateGroup] = true;
 	}
 
-	std::vector<Entity*> m_entities;
+	void UpdateAllGroupsLeft(float dt)
+	{
+		int i = 0;
+		for (auto g : groupUpdated)
+		{
+			if (!g)
+			{
+				for (auto e : entities)
+				{
+					e->Update(i, dt);
+				}
+			}
+			i++;
+		}
+		for (auto& g : groupUpdated)
+		{
+			g = false;
+		}		
+	}
+
+	std::vector<bool> groupUpdated;
+	std::vector<Entity*> entities;
 };

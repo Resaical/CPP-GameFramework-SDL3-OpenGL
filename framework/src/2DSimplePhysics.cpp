@@ -161,3 +161,13 @@ void Gravity::Update(float dt)
 void CollisionResolutionBounce::Update(float dt)
 {
 }
+
+void CollisionResolutionBlock::Resolve(Collider2D* other)
+{
+
+}
+
+void CollisionResolutionBlock::ResolveCircleCircle(CircleCollider2D* other)
+{
+
+}

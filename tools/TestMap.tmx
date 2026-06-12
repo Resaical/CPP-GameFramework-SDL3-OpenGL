@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="left-up" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <editorsettings>
+  <export target="../assets/csv/TestMap.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" source="TileSet1.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,64,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,64,0,0,276,277,277,
+0,0,0,0,0,0,0,44,238,263,
+0,0,0,0,276,278,0,65,263,263,
+0,0,0,0,0,0,0,65,263,263,
+0,0,57,0,0,0,0,86,263,263,
+138,138,138,138,138,138,141,222,222,222,
+179,179,179,179,179,179,167,206,206,206
+</data>
+ </layer>
+</map>

@@ -10,7 +10,10 @@ set(SOURCES
     framework/src/sdlApp.cpp 
     framework/src/basicComponents.cpp
     framework/src/2DSimplePhysics.cpp
+    framework/src/tileMap.cpp
+    framework/src/spriteSheet.cpp
     game/src/game.cpp   
+    game/src/platformerMovement.cpp
 )
 
 set(HEADERS
@@ -20,7 +23,10 @@ set(HEADERS
     framework/inc/sdlApp.h
     framework/inc/basicComponents.h
     framework/inc/2DSimplePhysics.h
+    framework/inc/tileMap.h
+    framework/inc/spriteSheet.h
     game/inc/game.h
+    game/inc/platformerMovement.h
 )
 
 add_executable(CppGameFramework

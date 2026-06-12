@@ -124,6 +124,16 @@ public:
 	glm::vec2 force = { 0, -256 };
 };
 
+class CollisionResolutionBlock : public Component
+{
+	CollisionResolutionBlock() {};
+	~CollisionResolutionBlock() {};
+
+	void Resolve(Collider2D* other);
+
+	void ResolveCircleCircle(CircleCollider2D* other);
+};
+
 class CollisionResolutionBounce : public Component
 {
 public:

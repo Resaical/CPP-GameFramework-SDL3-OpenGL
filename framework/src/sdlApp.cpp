@@ -43,8 +43,6 @@ void SDLApp::WaitForTargetFramerate(float targetFrameTime)
     {
         SDL_Delay((targetFrameTime - frameTime) * 1000.0f);
     }
-
-    std::cout << deltaTime << "\n";
     FameCount++;
 }
 
